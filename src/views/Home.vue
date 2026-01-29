@@ -10,7 +10,7 @@ const state = reactive({
 
 <template>
   <div class="memo-list">
-  	<router-link to="/memos/add" class="add btn btn-light">
+    <router-link to="/memos/add" class="add btn btn-light">
       + 추가하기
     </router-link>
     <router-link v-for="m in state.memos" :to="`/memos/${m.id}`" class="item" :key="m.id">

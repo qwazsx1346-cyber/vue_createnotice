@@ -7,7 +7,7 @@
 
             <header class="pb-4 mb-4 border-bottom">
                 <router-link to="/" class="text-dark text-decoration-none">
-                    <b class="fs-4">Memo Application</b>
+                    <b class="fs-4">게시판 만들기</b>
                 </router-link>
             </header>
 
@@ -16,7 +16,7 @@
             </main>
 
             <footer class="pt-4 mt-4 border-top">
-                &copy; 2024. Memo. All rights reserved.
+                &copy; 2026. Memo. All rights reserved.
             </footer>
 
         </div>
