@@ -1,28 +1,19 @@
 <script setup>
+
 </script>
 
 <template>
-  <div class="app">
-        <div class="container py-4">
-
-            <header class="pb-4 mb-4 border-bottom">
-                <router-link to="/" class="text-dark text-decoration-none">
-                    <b class="fs-4">게시판 만들기</b>
-                </router-link>
-            </header>
-
-            <main>
-                <router-view />
-            </main>
-
-            <footer class="pt-4 mt-4 border-top">
-                &copy; 2026. Memo. All rights reserved.
-            </footer>
-
-        </div>
-    </div>
+    <header>
+        <h3 class="note">게시판 만들기</h3>
+        <router-link to="/">홈</router-link>
+        <br>
+        <router-link to="/write">글쓰기</router-link>
+    </header>
+    <main>
+        <router-view />
+    </main>
 </template>
 
-<style lang="scss" scoped>
-.app .container {  max-width: 576px; }
+<style scoped>
+
 </style>
