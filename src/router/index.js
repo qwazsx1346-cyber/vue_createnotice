@@ -6,6 +6,10 @@ const router = createRouter({
     {
       path: '/',
       component: () => import('@/views/MemoList.vue'),
+    },
+    {
+      path: '/write',
+      component: () => import('@/views/WriteMod.vue'),
     },   
   ],
 })
